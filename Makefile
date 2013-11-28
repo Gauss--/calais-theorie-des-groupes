@@ -18,7 +18,7 @@ PAGE_COLOR  ?= White
 TEXT_COLOR  ?= Black
 
 SOURCE_FILES = $(shell find $(SOURCE_DIR)/ -type f -name '*.tex') 
-LATEX_FILES  = lib/maths.sty
+LATEX_FILES  = book/maths.sty
 
 RERUN = "^LaTeX Warning: .* Rerun to get"
 
